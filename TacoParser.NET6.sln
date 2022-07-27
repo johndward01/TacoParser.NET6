@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoParser.NET6", "TacoParser.NET6\TacoParser.NET6.csproj", "{D871A59D-0291-43B4-B902-EAE8E19C4D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoParser.NET6.Tests", "TacoParser.NET6.Tests\TacoParser.NET6.Tests.csproj", "{BDBE7814-CA3A-4E7F-AE0F-97C160B23C24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D871A59D-0291-43B4-B902-EAE8E19C4D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D871A59D-0291-43B4-B902-EAE8E19C4D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D871A59D-0291-43B4-B902-EAE8E19C4D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D871A59D-0291-43B4-B902-EAE8E19C4D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBE7814-CA3A-4E7F-AE0F-97C160B23C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBE7814-CA3A-4E7F-AE0F-97C160B23C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBE7814-CA3A-4E7F-AE0F-97C160B23C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBE7814-CA3A-4E7F-AE0F-97C160B23C24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96D52013-4C0C-47A3-B642-01925FF92E6E}
+	EndGlobalSection
+EndGlobal
