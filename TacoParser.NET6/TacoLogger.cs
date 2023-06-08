@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace TacoParser.NET6;
 
-namespace TacoParser.NET6;
 public class TacoLogger : ILog
 {
     public void LogFatal(string log, Exception exception = null)

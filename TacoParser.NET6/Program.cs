@@ -1,5 +1,4 @@
-﻿
-using GeoCoordinatePortable;
+﻿using GeoCoordinatePortable;
 using TacoParser.NET6;
 
 ILog logger = new TacoLogger();

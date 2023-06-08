@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TacoParser.NET6.Tests;
+﻿namespace TacoParser.NET6.Tests;
 
 public class TacoParserTests
 {
@@ -22,7 +16,7 @@ public class TacoParserTests
 
     [Theory]
     [InlineData("34.073638, -84.677017, Taco Bell Acwort...", 34.073638, -84.677017, " Taco Bell Acwort...")]
-    public void ShouldParse(string fullString, double latitude, double longitude, string tacoBellName)
+    public void ShouldParse(string fullString, double expectedLatitude, double expectedLongitude, string expectedTacoBellName)
     {
         // TODO: Complete Should Parse
 
@@ -31,9 +25,9 @@ public class TacoParserTests
         var actual = Parser.Parse(fullString);
 
         //Assert
-        Assert.Equal(latitude, actual.Location.Latitude);
-        Assert.Equal(longitude, actual.Location.Longitude);
-        Assert.Equal(tacoBellName, actual.Name);
+        Assert.Equal(expectedLatitude, actual.Location.Latitude);
+        Assert.Equal(expectedLongitude, actual.Location.Longitude);
+        Assert.Equal(expectedTacoBellName, actual.Name);
     }
 
     [Theory]
